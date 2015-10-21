@@ -1,0 +1,11 @@
+.bg-video-wrap {
+  verflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  min-height: 550px;
+  margin: 0;
+  background-size: cover;
+}

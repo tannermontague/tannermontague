@@ -1,8 +1,5 @@
 
 
-Design by Tim O'Brien [t413.com](http://t413.com/)
-&mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
+[made by blair anderson](http://www.blairanderson.co/)
 &mdash;
 this site is [open source]({{ site.source_link }})
-
