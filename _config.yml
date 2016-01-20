@@ -12,16 +12,18 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: pygments
+collections:
+- panels
 
 
 ### content configuration ###
 title:       "Tanner Montague Music"
 keywords:    "Jazz Drummer, Piano, Drummer for band."
 description: "I know how to play drums with a band. "
-source_link: "https://github.com/blairanderson/tannermontague"
+source_link: "https://github.com/tannermontague/tannermontague"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-61052500-11 ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###

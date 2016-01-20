@@ -8,7 +8,7 @@
   <title>{{ site.title }}</title>
 	<meta name="keywords" content="{{ site.keywords }}">
 	<meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="combo.css">
+  <link rel="stylesheet" href="/combo.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
@@ -18,14 +18,14 @@
   <div id="main">
     <nav>
       <ul>
-      {% for node in site.posts reversed %}
+      {% for node in site.panels %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
       </ul>
     </nav>
 
-    {% for page in site.posts reversed %}
+    {% for page in site.panels %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
         {% if page.icon %}
@@ -60,5 +60,5 @@
 {% include analytics.html %}
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="site.js"></script>
+<script src="/site.js"></script>
 </html>

@@ -1,5 +1,5 @@
 
 
-[made by blair anderson](http://www.blairanderson.co/)
+[Tanner Montague](http://www.tannermontague.com/)
 &mdash;
 this site is [open source]({{ site.source_link }})
