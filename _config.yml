@@ -7,9 +7,7 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
-timezone: null
-lsi: false
+encoding: utf-8
 markdown: kramdown
 highlighter: pygments
 collections:
