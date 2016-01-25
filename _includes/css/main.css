@@ -88,6 +88,7 @@ hr {
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%; /* keep 16x9 Aspect Ratio */
+  margin-bottom: 10px;
 }
 .i4x3 { padding-bottom: 75.00%; } /* keep 4x3 Aspect Ratio */
 .icontain iframe {
